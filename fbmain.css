@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+.main{
+    display: flex;
+    width: 70%;
+    height: 50vh;
+    margin: 150px auto;
+}
+.left{
+    height: 100%;
+    width: 50%;
+}
+.right{
+    height: 100%;
+    width: 50%;
+}
+.left img{
+    width: 301px;
+    height: 106px;
+    margin-top: 60px;
+    margin-left: -10px;
+}
+.left p{
+    margin-left: 5%;
+    margin-right: 15%;
+    font-size: 28px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: -20px;
+}
+.reg a{
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 18px;
+    transition: 0.2s;
+}
+.reg a:hover{
+    text-decoration: underline;
+}
+.reg{
+    display: flex;
+    width: 395px;
+    height: 350px;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 8px;
+    align-items: center;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+.reg input{
+    width: 364px;
+    height: 52px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+    margin-top: 15px;
+    padding-left: 15px;
+    font-family: inherit;
+    outline: none;
+    transition: 0.2;
+
+}
+input[type=email]:hover{
+    border: 1px solid #1877f2;
+}
+input[type=password]:hover{
+    border: 1px solid #1877f2;
+}
+::placeholder{
+    color: #1d2129;
+}
+.enter{
+    width: 379px;
+    height: 48px;
+    background-color: #1877f2;
+    border-radius: 6px;
+    margin-top: 15px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.enter:hover{
+    background-color: #4c4cff;
+}
+.line{
+    border-bottom: 1px solid #dadde1;
+    height: 1px;
+    width: 379px;
+    margin-top: 18px;
+ 
+}
+.new{
+    width: 225px;
+    height: 48px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #42b72a;
+    color: #fff;
+    margin-top: 25px;
+    font-family: inherit;
+    font-weight: bold;
+    transition: 0.2s;
+
+}
+.new:hover{
+    background-color: #00b300;
+}
+.bottom{
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    width: 396px;
+    height: 36.8px;
+    margin-top: 15px;
+}
+.bottom a{
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    transition: 0.2s;
+}
+.bottom a:hover{
+    text-decoration: underline;
+}
+
